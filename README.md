@@ -3,7 +3,7 @@
 All files in this repository are licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) license](http://creativecommons.org/licenses/by-nc-sa/4.0/).
 
 This tutorial is written by Toon Verstraelen for students of the course
-["Elektriciteit, Magnetisme en Sensoren" (I002429)](https://studiekiezer.ugent.be/2024/studiefiche/en/I002429)
+["Elektriciteit, Magnetisme en Sensoren" (I002429)](https://studiekiezer.ugent.be/2025/studiefiche/en/I002429)
 of the [B.Sc. Bioscience Engineering](https://studiekiezer.ugent.be/2025/bachelor-of-science-in-bioscience-engineering/programma)
 at [Ghent University](https://www.ugent.be/).
 
