@@ -1,32 +1,32 @@
 repos:
+- repo: https://github.com/pre-commit/pre-commit-hooks
+  rev: v6.0.0
+  hooks:
+    - id: fix-byte-order-marker
+    - id: check-case-conflict
+    - id: check-merge-conflict
+    - id: end-of-file-fixer
+    - id: mixed-line-ending
+    - id: trailing-whitespace
+    - id: check-ast
+    - id: check-json
+    - id: check-toml
+    - id: check-yaml
+      args: ["--unsafe"]
+    - id: check-symlinks
+    - id: pretty-format-json
+      args: ["--autofix", "--no-ensure-ascii", "--no-sort-keys"]
+      exclude: '\.ipynb$'
 - repo: https://github.com/Lucas-C/pre-commit-hooks
   rev: v1.5.5
   hooks:
     - id: remove-crlf
-- repo: https://github.com/pre-commit/pre-commit-hooks
-  rev: v5.0.0
-  hooks:
-    - id: check-added-large-files
-    - id: check-ast
-    - id: check-case-conflict
-    - id: check-executables-have-shebangs
-    - id: check-json
-    - id: check-merge-conflict
-    - id: check-symlinks
-    - id: check-toml
-    - id: check-vcs-permalinks
-    - id: debug-statements
-    - id: detect-private-key
-    - id: destroyed-symlinks
-    - id: end-of-file-fixer
-    - id: fix-byte-order-marker
-    - id: mixed-line-ending
-    - id: trailing-whitespace
+      exclude_types: [binary]
 - repo: https://github.com/astral-sh/ruff-pre-commit
-  rev: v0.7.1
+  rev: v0.13.0
   hooks:
     - id: ruff-format
-    - id: ruff
+    - id: ruff-check
       args: ["--fix", "--show-fixes"]
 - repo: https://github.com/srstevenson/nb-clean
   rev: "4.0.1"
